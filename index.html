@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio</title>
+    <link rel="stylesheet" href="/lib/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header id="header1">
+            <div class="container">
+                <img src="https://www.lionsseminovos.com.br/assets/uploads/nt_conteudo_geral/62620-69141-2.png?v=3" alt="" width="60" >
+                <button id="botao-header" type="button" class="btn btn-link-dark " style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem; font-weight: bold; " >Clique e ligaremos para você</button>
+            </div>
+    </header>
+    <div class="navbar navbar-expand-lg">
+        <div class="container">
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse justify-content-start" id="menu">
+                <ul class="nav nav-pills navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#inicio">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#vantagens">Vantagens</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#ofertas">Ofertas</a>
+                    </li>
+                </ul>
+                <form class="form-inline d-flex my-2 my-lg-0 ms-auto">
+                    <input class="form-control " type="search" placeholder="Pesquise seu carro" aria-label="Pesquisar">
+                    <button class="btn btn-dark btn-sm ml-2" type="submit">Pesquise</button>
+                </form>
+            </nav>
+        </div>
+    </div>
+
+    <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+            <button data-bs-target="#carousel" data-bs-slide-to="1"></button>
+            <button data-bs-target="#carousel" data-bs-slide-to="2"></button>
+        </div>
+        <div class="carousel-inner">
+            <div  data-bs-interval="3000" class="carousel-item active">
+                <img class="d-block w-100" src="https://www.lionsseminovos.com.br/assets/uploads/nt_home_banners/26467-site-utilitarios--4-.png?v=3" alt="Primeiro Slide">
+            </div>
+            <div  data-bs-interval="3000" class="carousel-item">
+                <img class="d-block w-100" src="https://www.lionsseminovos.com.br/assets/uploads/nt_home_banners/66420-site-dia-das-crian--as.png?v=3" alt="Segundo Slide">
+            </div>
+            <div  data-bs-interval="3000" class="carousel-item">
+                <img class="d-block w-100" src="https://www.lionsseminovos.com.br/assets/uploads/nt_home_banners/03363-site-11111111111111.png?v=3" alt="Terceiro Slide">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carousel" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </a>
+        <a class="carousel-control-next" href="#carousel" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </a>
+    </div>
+
+    <div data-bs-spy="scroll" data-bs-target="header1">
+        <section id="vantagens">
+            <header id="header2" class="row text-center">
+                <div class="col-12">
+                    <h3 class="text-uppercase m-0">Conheça nossas vantagens</h3>
+                    <p>Negocie com a Lions e tenha benefícios exclusivos</p>
+                </div>
+            </header>
+        </section>
+        <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-12">
+                <article  class="card-group text-bg-light h-100 ">
+                    <img  class="card-img " src="https://www.lionsseminovos.com.br/assets/uploads/nt_vantagens_itens/00645-45854-icon-2.png?v=3" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">FIQUE DESPREOCUPADO</h4>
+                        <p class="card-text">
+                            Possuímos um ótimo sistema de atendimento pós-venda com uma equipe especializada e oficinas credenciadas para deixar nossos clientes satisfeitos.
+                        </p>
+                    </div>
+                </article>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 ">
+                <article  class="card-group text-bg-light h-100 ">
+                    <img  class="card-img " src="https://www.lionsseminovos.com.br/assets/uploads/nt_vantagens_itens/02042-34188-icon-3.png?v=3" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">NÃO PERCA NA TROCA</h4>
+                        <p class="card-text">
+                            Somos especialistas em carros e, por isso, sabemos como avaliar o seu usado. Na Lions você pode receber até 90% do valor da tabela FIPE no momento da troca.
+                        </p>
+                    </div>
+                </article>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+                <article  class="card-group text-bg-light h-100 " >
+                    <img  class="card-img " src="https://www.lionsseminovos.com.br/assets/uploads/nt_vantagens_itens/22155-icon-4.png?v=3" alt=""  >
+                    <div class="card-body">
+                        <h4 class="card-title">NADA DE JUROS ALTOS</h4>
+                        <p class="card-text">
+                            Somos o líder nacional em financiamentos. Por consequência, grandes bancos fornecem para nossos clientes taxas de juros baixas e fácil aprovação de crédito.
+                        </p>
+                    </div>
+                </article>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+                <article  class="card-group h-100 text-bg-light ">
+                    <img  class="card-img img-fluid " src="https://www.lionsseminovos.com.br/assets/uploads/nt_vantagens_itens/47622-icon-04.png?v=3" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">ÓTIMOS PREÇOS</h4>
+                        <p class="card-text">
+                            Compramos carros em grandes lotes e com grandes descontos. Desta forma, conseguimos te repassar bons descontos. ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ
+                        </p>
+                    </div>
+                </article>
+                </div>
+            </div>
+        </div>
+
+        <div data-bs-spy="scroll" data-bs-target="header1">
+        <section id="ofertas">
+            <header id="header3" class="row text-center">
+                <div class="col-12">
+                    <h3 class="text-uppercase m-0">nossas ofertas</h3>
+                    <p>Confira oportunidades preparadas para você</p>
+                </div>
+            </header>
+        </section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-12">
+                    <article class="card text-secondary" style="background-color: #c8c7ca; border: none;">
+                        <img class="d-block w-100" src="https://www.lionsseminovos.com.br/assets/uploads/nt_seminovos_imagens/26372-IMG_2452_16_11zon.jpg?v=3" alt="">
+                        <div class="card-body">
+                            <p class="card-text mb-0">
+                            <strong>2022</strong>
+                            NISSAN KICKS 
+                            </p>
+                            <P  class="card-text">
+                                1.6 SENSE CVT
+                            </P>
+                            <a href="" class="btn btn-danger">Saiba mais</a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <article class="card text-secondary" style="background-color: #c8c7ca; border: none;">
+                        <img class="d-block w-100" src="https://www.lionsseminovos.com.br/assets/uploads/nt_seminovos_imagens/28269-IMG_3208.JPG?v=3" alt="">
+                        <div class="card-body">
+                            <p class="card-text mb-0">
+                            <strong>2023</strong>
+                            RENAULT KWID
+                            </p>
+                            <P  class="card-text">
+                                INTENSE 1.0
+                            </P>
+                            <a href="" class="btn btn-danger">Saiba mais</a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <article class="card text-secondary" style="background-color: #c8c7ca; border: none;">
+                        <img class="d-block w-100" src="https://www.lionsseminovos.com.br/assets/uploads/nt_seminovos_imagens/02314-IMG_4907_35_11zon.jpg?v=3" alt="">
+                        <div class="card-body">
+                            <p class="card-text mb-0">
+                            <strong>2021</strong>
+                            FIAT GRAND SIENA
+                            </p>
+                            <P  class="card-text">
+                                ATTRACTIVE 1.0
+                            </P>
+                            <a href="" class="btn btn-danger">Saiba mais</a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <article class="card text-secondary" style="background-color: #c8c7ca; border: none;">
+                        <img class="d-block w-100" src="https://www.lionsseminovos.com.br/assets/uploads/nt_seminovos_imagens/97293-IMG_8431_10_11zon.jpg?v=3"" alt="">
+                        <div class="card-body">
+                            <p class="card-text mb-0">
+                            <strong>2020</strong>
+                            FIAT STRADA 
+                            </p>
+                            <P  class="card-text">
+                                1.4 HARD WORKING CE
+                            </P>
+                            <a href="" class="btn btn-danger">Saiba mais</a>
+                            
+                        </div>
+                    </article>
+            </div>
+        </div>
+    </div>
+
+
+    <section id="contato">
+        <header id="header3" class="row ">
+        </header>
+        <div class="container">
+        <div class="col-12">
+            <h3 class="text-uppercase m-0 form-h3" style="max-width: 100%; width: 600px;">Seja como um de nossos clientes satisfeitos.
+                </h3>
+                <h3 class="text-uppercase m-0 form-h3">Realize o seu sonho</h3>
+            <p>Tem alguma dúvida?
+                Envie seus dados que entraremos em contato.
+                </p>
+                <div class="container ">
+                    <form>
+                    <div class="mb-2">
+                        <input type="text" class="form-control custom-input" name="nome" id="nome" placeholder="Nome" >
+                    </div>
+                    
+                    <div class="mb-2">
+                        <input type="email" class="form-control" name="email" id="email" placeholder="seuemail@exemplo.com" >
+                        <div class="invalid-feedback">Por favor, insira um email válido.</div>
+                    </div>
+
+                    <div class="input-group mb-2">
+                        <input type="tel" class="form-control custom-input" name="telefone" id="telefone" placeholder="Telefone" >
+                    </div>
+
+                    <div class="mb-2">
+                        <select class="form-select custom-input" >
+                        <option selected disabled>Selecione a loja mais próxima</option>
+                        <option value="1">Loja 1</option>
+                        <option value="2">Loja 2</option>
+                        <option value="3">Loja 3</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-custom">ENVIAR</button>
+                    </form>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+        <div class="modal" id="exemplo-modal" data-bs-backdrop="static"> 
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5>Você é um professor da Ebac?</h5>
+                        <button data-bs-dismiss="modal" type="button" class=" btn btn-close" ></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Olá, esse é um exercicio que fiz utilizando Bootstrap, deu um pequeno trabalho mas acho que consegui chegar onde deveria, espero que goste.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Não sou professor</button>
+                        <button type="button" class="btn btn-success" data-bs-dismiss="modal">Sou professor</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <script src="/lib/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="/lib/jquery.mask.min.js"></script>
+    <script src="/lib/jquery.validate.min.js"></script>
+    <script src="/lib/messages_pt_BR.min.js"></script>
+    <script src="main.js"></script>
+
+</body>
+</html>
